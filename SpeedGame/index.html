@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Speedgame</title>
+</head>
+
+<body>
+  <main>
+    <div class="text">
+      <h1>| Speedgame |</h1>
+      <h2>Your score <span id="score">0</span></h2>
+    </div>
+    <div class="speed">
+      <div class="button1" onclick="document.getElementById" id="button0">
+      </div>
+      <div class="button1" id="button1">
+      </div>
+      <div class="button1" id="button2">
+      </div>
+      <div class="button1" id="button3">
+      </div>
+    </div>
+    <div id='win'>
+     <p id='gameover'></p><div id='close' onclick="window.location.reload()">
+     Close</div></div>
+
+   </div>
+  </main>
+  <footer>
+    <div class="action">
+      <button type="button" onclick="pickNext()">Start game</button>
+      <button type="button" onclick="gameOver()">Stop game</button>
+    </div>
+  </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
